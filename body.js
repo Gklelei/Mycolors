@@ -7,5 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (btncolor) {
             document.body.style.backgroundColor = txtcolor;
         }
+        if(btncolor == "black"){
+            document.body.style.color = 'white';
+        }
+       
+        else{
+            document.body.style.color = 'black';
+        }
     }
 });
